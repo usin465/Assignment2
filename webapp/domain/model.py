@@ -1,6 +1,5 @@
 import datetime
 import csv
-from tests import data
 from webapp.adapters import data
 class Director:
 
