@@ -1,0 +1,21 @@
+<nav id="nav">
+    <img id="logo" src="{{url_for('static', filename='Movie-PNG-Transparent-Image.png')}}"/>
+    <h2 id="nav-header">
+        Hello, user
+    </h2>
+
+    <div>
+        <h3>
+            <a class = "btn-nav" href = {{url_for('home')}}>
+                Home
+            </a>
+            <a class = "btn-nav" href = {{url_for('browse_movies')}}>
+                Browse Movies A-Z
+            </a>
+        </h3>
+    </div>
+
+    <div id="nav-footer">
+        A Web Application by Uday Singh
+    </div>
+</nav>

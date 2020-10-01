@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+{% block content %}
+<main id = "main">
+    <header id = "movie-header">
+        <h1> {{movies_title}}</h1>
+    </header>
+    <ul>
+        {% for movie in movies %}
+        <li> {{movie._title, movie._description, movie._release_year}} </li>
+        <br>
+        {% endfor %}
+    </ul>
+    <nav style="clear:both">
+            <div style="float:left">
+
+                    <button class="btn-general" onclick="location.href='{{url_for('first_movies')}}'">First</button>
+
+                    <button class="btn-general" onclick="location.href='{{url_for('next_movies')}}'">Next</button>
+
+            </div>
+            <div style="float:right">
+                    <button class="btn-general" onclick="location.href='{{url_for('previous_movies')}}'">Previous</button>
+
+
+                    <button class="btn-general" onclick="location.href='{{url_for('last_movies')}}'">Last</button>
+
+            </div>
+        </nav>
+
+</main>
+{% endblock %}
