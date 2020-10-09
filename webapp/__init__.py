@@ -1,16 +1,24 @@
-import html
+import os
 from flask import Flask, request, render_template
 import webapp.adapters.repository as repo
 from webapp.adapters.memory_repository import MemoryRepository
+from tests import unit
 from markupsafe import escape
 
 
-def create_app():
+def create_app(test_config = None):
 
     app = Flask(__name__)
     app.config['TEMPLATES_AUTO_RELOAD'] = True
+    if test_config is None:
+        app.config.from_object('config.Config')
+        data_path = 'webapp/adapters/data/Data1000Movies.csv'
+
+    if test_config is not None:
+        app.config.from_mapping(test_config)
+        data_path = app.config['TEST_DATA_PATH']
     repo = MemoryRepository()
-    repo.populate_repo('webapp/adapters/data/Data1000Movies.csv')
+    repo.populate_repo(data_path)
 
 
 
