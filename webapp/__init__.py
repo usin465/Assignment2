@@ -8,6 +8,7 @@ from markupsafe import escape
 def create_app():
 
     app = Flask(__name__)
+    app.config['TEMPLATES_AUTO_RELOAD'] = True
     repo = MemoryRepository()
     repo.populate_repo('webapp/adapters/data/Data1000Movies.csv')
 

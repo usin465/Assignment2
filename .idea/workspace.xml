@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,21 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6bfd523-538f-4ada-a360-e5b224d249db" name="Default Changelist" comment="Second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/test_domain_model.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/unit/test_memory_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/test_memory_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/adapters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/domain/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/domain/movies.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/movies/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/movies/movies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/movies/services.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/Movie-PNG-Transparent-Image.png" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/Movie-PNG-Transparent-Image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +54,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/unit/test_memory_repository.py" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../COMPSCI-235-04_COVID_web_app" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Uday\Desktop\235_WebApp\webapp\templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.wsgi">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -164,6 +178,32 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_memory_repository.test_repository_can_get_previous_movies" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="235_Webapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Uday\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_memory_repository.test_repository_can_get_previous_movies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_memory_repository.test_repository_can_retrieve_specified_movie_description" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="235_Webapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,15 +261,20 @@
       <item itemvalue="Python tests.pytest in test_memory_repository.py" />
       <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_add_a_movie" />
       <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_retrieve_specified_movie_description" />
+      <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_get_previous_movies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_get_previous_movies" />
         <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_add_a_movie" />
         <item itemvalue="Python tests.pytest for test_memory_repository.test_repository_can_retrieve_specified_movie_description" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b6bfd523-538f-4ada-a360-e5b224d249db" name="Default Changelist" comment="" />
@@ -261,37 +306,62 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
     <MESSAGE value="Second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601532368925">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601715342460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601532368925" />
-    <state x="548" y="175" key="FileChooserDialogImpl" timestamp="1601532276156">
+    <state x="223" y="0" width="1089" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601715342460" />
+    <state x="548" y="175" key="FileChooserDialogImpl" timestamp="1601881920130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601532276156" />
-    <state width="1500" height="210" key="GridCell.Tab.0.bottom" timestamp="1601619097922">
+    <state x="548" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601881920130" />
+    <state width="1500" height="210" key="GridCell.Tab.0.bottom" timestamp="1602216589946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601619097922" />
-    <state width="1500" height="210" key="GridCell.Tab.0.center" timestamp="1601619097922">
+    <state width="1500" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602216589946" />
+    <state width="1500" height="210" key="GridCell.Tab.0.center" timestamp="1602216589946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601619097922" />
-    <state width="1500" height="210" key="GridCell.Tab.0.left" timestamp="1601619097922">
+    <state width="1500" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602216589946" />
+    <state width="1500" height="210" key="GridCell.Tab.0.left" timestamp="1602216589946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601619097922" />
-    <state width="1500" height="210" key="GridCell.Tab.0.right" timestamp="1601619097922">
+    <state width="1500" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602216589946" />
+    <state width="1500" height="210" key="GridCell.Tab.0.right" timestamp="1602216589946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601619097922" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601532477258">
+    <state width="1500" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602216589946" />
+    <state width="1500" height="258" key="GridCell.Tab.1.bottom" timestamp="1601716632788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601532477258" />
+    <state width="1500" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601716632788" />
+    <state width="1500" height="258" key="GridCell.Tab.1.center" timestamp="1601716632788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1500" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601716632788" />
+    <state width="1500" height="258" key="GridCell.Tab.1.left" timestamp="1601716632787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1500" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601716632787" />
+    <state width="1500" height="258" key="GridCell.Tab.1.right" timestamp="1601716632788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1500" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601716632788" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1601882626952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601882626952" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601714451787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601714451786" />
   </component>
 </project>

@@ -42,6 +42,7 @@ def test_repository_can_retrieve_specified_movie_description(repo):
 def test_repository_can_populate_repo(repo):
     repo.populate_repo('50movies.csv')
     assert len(repo.get_all_movies()) == 55
+    #length 55 as repo instantiated with movies.csv which contains 5 movies
 
 def test_repository_can_get_first_movie(repo):
     repo.populate_repo('50movies.csv')
