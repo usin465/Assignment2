@@ -27,12 +27,24 @@ From the *235_WebApp* directory, and within the activated virtual environment (s
 $ flask run
 ```` 
 
+## Configuration
+
+The *235_WebApp/.env* file contains variable settings. They are set with appropriate values.
+
+* `FLASK_APP`: Entry point of the application (should always be `wsgi.py`).
+* `FLASK_ENV`: The environment in which to run the application (either `development` or `production`).
+* `SECRET_KEY`: Secret key used to encrypt session data.
+* `TESTING`: Set to False for running the application. Overridden and set to True automatically when testing the application.
+
+
 ## Testing
 
-Testing requires files 235_WebApp --> tests --> unit where test files are located for testing the memory repository.
-Domain model testing is omitted as was comprehensively tested in A1.
-To view test results change configuration to run the tests specified.
-Current config may be running on wsgi, thus will need to be changed to the specific test.
+Testing requires that file *235_WebApp/tests/conftest.py* be edited to set the value of `TEST_DATA_PATH`. You should set this to the absolute path of the *235_WebApp/tests/data* directory. 
+
+You can then run tests from within PyCharm.
+
+
+Note - unit testing for the domain model has been omitted. This is due to the extensive testing already carried out in A1. As a result, we can assume that the existing domain model is fully functional due to passing all tests in coderunner.
 
 
  

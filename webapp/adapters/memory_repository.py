@@ -60,8 +60,6 @@ class MemoryRepository(AbstractRepository):
         return next((movie.description for movie in self._movies if movie.title == movie_name), None)
 
     def populate_repo(self, filename:str):
-        # filename = 'MovieWebApp/webapp/domain/movies.csv'
-        #filename = 'webapp/domain/movies.csv'
         movie_file_reader = MovieFileCSVReader(filename)
         movie_file_reader.read_csv_file()
         movie_set = movie_file_reader.dataset_of_movies

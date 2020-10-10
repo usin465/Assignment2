@@ -4,6 +4,12 @@ from datetime import date
 
 from webapp.domain.model import Genre, Actor, Movie,Director, Review, User, WatchList, MovieFileCSVReader
 repo_instance = None
+
+class RepositoryException(Exception):
+
+    def __init__(self, message=None):
+        pass
+
 class AbstractRepository(abc.ABC):
 
     @abc.abstractmethod
